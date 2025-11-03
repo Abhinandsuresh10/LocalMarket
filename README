@@ -1,1 +1,119 @@
-hello world
+🥕 LocalFarm — Homemade Veggie Marketplace
+
+A full-stack web application that connects local farmers and buyers.
+Users can sell or purchase homemade vegetables with product images, expiry dates, and location-based listings.
+
+🚀 Features
+
+🔐 Authentication (JWT-based or Firebase)
+
+🥦 Product CRUD
+
+Add / edit / delete products
+
+Upload images & videos via Cloudinary
+
+🗺️ Map Integration (Leaflet.js + OpenStreetMap)
+
+Show nearby sellers
+
+Filter products by location
+
+💬 User Profile & Seller Info
+
+📦 Purchase / Contact Options
+
+🧱 Clean Architecture — scalable, testable structure
+
+🧩 Tech Stack
+
+Frontend
+
+React.js + TypeScript
+
+Tailwind CSS
+
+Leaflet.js (maps)
+
+Backend
+
+Node.js + Express
+
+TypeScript
+
+MongoDB (Mongoose)
+
+Cloudinary (media storage)
+
+JWT / Firebase Authentication
+
+Tools
+
+Git + GitHub (for collaboration)
+
+Postman (API testing)
+
+VSCode
+
+🏗️ Project Structure (Clean Architecture)
+/frotnend
+  ├── src/
+  │   ├── components/
+  │   ├── pages/
+  │   ├── hooks/
+  │   ├── context/
+  │   ├── services/ (API calls)
+  │   ├── types/
+  │   └── main.tsx
+
+/backend
+  ├── src/
+  │   ├── domain/ (entities, models)
+  │   ├── application/ (use-cases, business logic)
+  │   ├── infrastructure/ (db, cloudinary, maps)
+  │   ├── presentation/ (routes, controllers)
+  │   ├── middleware/
+  │   ├── config/
+  │   └── index.ts
+
+⚙️ Setup Instructions
+
+1. Clone the Repository
+git clone https://github.com/Abhinandsuresh10/LocalMarket.git
+cd LocalMarket
+
+2. Install Dependencies
+
+Frontend:
+
+cd frontend
+npm install
+
+
+Backend:
+
+cd backend
+npm install
+
+
+Git Contribution Workflow
+
+1. git pull origin develop
+
+2. git checkout -b feature/auth-system
+
+3. git add .
+   git commit -m "Added JWT auth system"
+
+4. git push origin feature/auth-system
+
+
+🧠 Learning Goals
+
+Strengthen React + TypeScript skills
+
+Learn team Git workflow (branching, PRs, reviews)
+
+Practice Clean Architecture principles
+
+Get comfortable with Cloudinary + Leaflet + MongoDB
